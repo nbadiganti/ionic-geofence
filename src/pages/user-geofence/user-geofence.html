@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>User Geofence Attendance</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-label floating>Latitude</ion-label>
+      <ion-input type="text" [(ngModel)]="longtitude"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Longtitude</ion-label>
+      <ion-input type="text" [(ngModel)]="latitude"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Radius</ion-label>
+      <ion-input type="number" [(ngModel)]="radius"></ion-input>
+    </ion-item>
+
+  </ion-list>
+
+  <div padding>
+    <button block (click)="addGeofence()" ion-button>Add GeoFence</button>
+  </div>
+
+</ion-content>

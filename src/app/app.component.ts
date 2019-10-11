@@ -6,6 +6,7 @@ import { Config, Nav, Platform } from 'ionic-angular';
 
 import { FirstRunPage } from '../pages';
 import { Settings } from '../providers';
+import { UserGeofencePage } from '../pages/user-geofence/user-geofence';
 
 @Component({
   template: `<ion-menu [content]="content" type="overlay">
@@ -27,7 +28,7 @@ import { Settings } from '../providers';
   <ion-nav #content [root]="rootPage"></ion-nav>`
 })
 export class MyApp {
-  rootPage = FirstRunPage;
+  rootPage = UserGeofencePage;
 
   @ViewChild(Nav) nav: Nav;
 
