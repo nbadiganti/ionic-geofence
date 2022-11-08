@@ -28,8 +28,8 @@
     "@ionic/storage": "2.2.0",
     "@ngx-translate/core": "8.0.0",
     "@ngx-translate/http-loader": "^2.0.0",
-    "cordova": "^7.1.0",
-    "cordova-plugin-add-swift-support": "^1.6.0",
+    "cordova": "^11.0.0",
+    "cordova-plugin-add-swift-support": "^1.7.2",
     "cordova-plugin-compat": "^1.2.0",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-geofence": "^0.7.0",
@@ -44,7 +44,7 @@
     "rxjs": "5.5.11",
     "sw-toolbox": "3.6.0",
     "zone.js": "0.8.29",
-    "cordova-android": "~6.3.0"
+    "cordova-android": "~11.0.0"
   },
   "devDependencies": {
     "@ionic/app-scripts": "3.2.2",
